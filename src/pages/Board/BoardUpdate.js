@@ -53,8 +53,13 @@ const BoardUpdate = () => {
   };
 
   useEffect(() => {
-    getBoard();
-  }, []);
+    const fetchData = async () => {
+      const data = await getBoard();
+      setBoard(data);
+    };
+  
+    fetchData();
+  }, [getBoard]);
 
   return (
     <div className="defualt_page">

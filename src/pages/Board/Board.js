@@ -16,6 +16,7 @@ function Board() {
     fetchBoardList();
   }, []);
 
+  /*
   const createBoardItem = async (boardData) => {
     await db.collection('boards').add(boardData);
   };
@@ -27,6 +28,7 @@ function Board() {
   const deleteBoardItem = async (id) => {
     await db.collection('boards').doc(id).delete();
   };
+  */
 
   return (
     <div className="defualt_page">

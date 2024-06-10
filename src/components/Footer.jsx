@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="footer-section">
       <ul className="footer-nav-list">
-        <li><a href="https://kscms.ks.ac.kr/kor/CMS/Board/Board.do?mCode=MN010">
+        <li><a href="https://kscms.ks.ac.kr/kor/CMS/Board/Board.do?mCode=MN010" alt="img">
             개인정보처리방침</a></li>
         <li>|</li>
         <li><a href="location">
