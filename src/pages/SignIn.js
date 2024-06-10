@@ -26,7 +26,7 @@ const SignIn = () => {
       </div>
       <div className="defualt_content">
         <p>로그인</p>
-        <p style={{fontSize: 18, fontWeight: 400}}>간편 로그인하기</p>
+        <p style={{fontSize: 18, fontWeight: 400}}>간편 로그인하기{user}</p>
         <GoogleButton/>
         <GithubButton/>
       </div>

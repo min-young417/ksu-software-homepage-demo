@@ -22,19 +22,6 @@ const BoardUpdate = () => {
     });
   };
 
-  const getBoard = async () => {
-    try {
-      const doc = await db.collection('boards').doc(idx).get();
-      if (!doc.exists) {
-        console.log('No such document!');
-      } else {
-        setBoard(doc.data());
-      }
-    } catch (error) {
-      console.error('Error getting document:', error);
-    }
-  };
-
   const updateBoard = async () => {
     try {
       await db.collection('boards').doc(idx).update({
@@ -53,13 +40,7 @@ const BoardUpdate = () => {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
-      const data = await getBoard();
-      setBoard(data);
-    };
-  
-    fetchData();
-  }, [getBoard]);
+  }, []);
 
   return (
     <div className="defualt_page">
