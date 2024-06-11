@@ -2,22 +2,22 @@ import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Loading from "./components/Loading";
 
-const Main = React.lazy(() => import("./components/Main"))
-const About = React.lazy(() => import("./components/About"))
-const Goals = React.lazy(() => import("./components/Goals"))
-const Competency = React.lazy(() => import("./components/Competency"))
-const Diagram = React.lazy(() => import("./components/Diagram"))
-const SignIn = React.lazy(() => import("./components/SignIn"))
-const Career = React.lazy(() => import("./components/Career"))
-const Certificate = React.lazy(() => import("./components/Certificate"))
-const History = React.lazy(() => import("./components/History"))
-const Location = React.lazy(() => import("./components/Location"))
-const Gallery = React.lazy(() => import("./components/Gallery"))
-const Board = React.lazy(() => import("./components/Board/Board"))
-const Professor = React.lazy(() => import("./components/Professor"))
-const BoardDetail = React.lazy(() => import("./components/Board/BoardDetail"))
-const BoardWrite = React.lazy(() => import("./components/Board/BoardWrite"))
-const BoardUpdate = React.lazy(() => import("./components/Board/BoardUpdate"))
+import Main from "./components/Main"
+import About from "./components/About"
+import Goals from "./components/Goals"
+import Competency from "./components/Competency"
+import Diagram from "./components/Diagram"
+import SignIn from "./components/SignIn"
+import Career from "./components/Career"
+import Certificate from "./components/Certificate"
+import History from "./components/History"
+import Location from "./components/Location"
+import Gallery from "./components/Gallery"
+import Board from "./components/Board/Board"
+import Professor from "./components/Professor"
+import BoardDetail from "./components/Board/BoardDetail"
+import BoardWrite from "./components/Board/BoardWrite"
+import BoardUpdate from "./components/Board/BoardUpdate"
 
 function Router() {
   return(
