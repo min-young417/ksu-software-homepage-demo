@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { authService } from '../firebase/firebase';
-import GithubButton from '../components/GithubButton';
-import GoogleButton from '../components/GoogleButton';
+import GithubButton from './GithubButton';
+import GoogleButton from './GoogleButton';
 
 const SignIn = () => {
   const [user, setUser] = useState(null);

@@ -2,22 +2,22 @@ import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Loading from "./components/Loading";
 
-const Main = React.lazy(() => import("./pages/Main"))
-const About = React.lazy(() => import("./pages/About"))
-const Goals = React.lazy(() => import("./pages/Goals"))
-const Competency = React.lazy(() => import("./pages/Competency"))
-const Diagram = React.lazy(() => import("./pages/Diagram"))
-const SignIn = React.lazy(() => import("./pages/SignIn"))
-const Career = React.lazy(() => import("./pages/Career"))
-const Certificate = React.lazy(() => import("./pages/Certificate"))
-const History = React.lazy(() => import("./pages/History"))
-const Location = React.lazy(() => import("./pages/Location"))
-const Gallery = React.lazy(() => import("./pages/Gallery"))
-const Board = React.lazy(() => import("./pages/Board/Board"))
-const Professor = React.lazy(() => import("./pages/Professor"))
-const BoardDetail = React.lazy(() => import("./pages/Board/BoardDetail"))
-const BoardWrite = React.lazy(() => import("./pages/Board/BoardWrite"))
-const BoardUpdate = React.lazy(() => import("./pages/Board/BoardUpdate"))
+const Main = React.lazy(() => import("./components/Main"))
+const About = React.lazy(() => import("./components/About"))
+const Goals = React.lazy(() => import("./components/Goals"))
+const Competency = React.lazy(() => import("./components/Competency"))
+const Diagram = React.lazy(() => import("./components/Diagram"))
+const SignIn = React.lazy(() => import("./components/SignIn"))
+const Career = React.lazy(() => import("./components/Career"))
+const Certificate = React.lazy(() => import("./components/Certificate"))
+const History = React.lazy(() => import("./components/History"))
+const Location = React.lazy(() => import("./components/Location"))
+const Gallery = React.lazy(() => import("./components/Gallery"))
+const Board = React.lazy(() => import("./components/Board/Board"))
+const Professor = React.lazy(() => import("./components/Professor"))
+const BoardDetail = React.lazy(() => import("./components/Board/BoardDetail"))
+const BoardWrite = React.lazy(() => import("./components/Board/BoardWrite"))
+const BoardUpdate = React.lazy(() => import("./components/Board/BoardUpdate"))
 
 function Router() {
   return(
