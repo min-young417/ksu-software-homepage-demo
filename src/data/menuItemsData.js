@@ -55,15 +55,15 @@ export const menuItemsData = [
   },
   {
     title: '커뮤니티',
-    url: '/board',
+    url: 'https://kscms.ks.ac.kr/software/CMS/Board/Board.do?mCode=MN033',
     submenu: [
       {
         title: '공지사항',
-        url: 'board'
+        url: 'https://kscms.ks.ac.kr/software/CMS/Board/Board.do?mCode=MN033'
       },
       {
-        title: '학생활동',
-        url: 'gallery'
+        title: '학교공지사항',
+        url: 'https://kscms.ks.ac.kr/software/CMS/Board/Board.do?mCode=MN035'
       },
     ]
   },
